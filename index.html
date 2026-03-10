@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Registration Form</h2>
+
+<form id="form">
+
+<input type="text" id="name" placeholder="Enter Name">
+<span id="nameError"></span><br>
+
+<input type="email" id="email" placeholder="Enter Email">
+<span id="emailError"></span><br>
+
+<input type="text" id="phone" placeholder="Enter Phone">
+<span id="phoneError"></span><br>
+
+<input type="password" id="password" placeholder="Enter Password">
+<button type="button" onclick="togglePassword()">Show</button>
+
+<div id="strength"></div>
+
+<button type="submit">Register</button>
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>
