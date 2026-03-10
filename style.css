@@ -1,0 +1,21 @@
+body{
+font-family: Arial;
+text-align:center;
+}
+
+input{
+display:block;
+margin:10px auto;
+padding:8px;
+width:200px;
+}
+
+span{
+color:red;
+font-size:12px;
+}
+
+#strength{
+margin:5px;
+font-weight:bold;
+}
